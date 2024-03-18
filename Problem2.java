@@ -1,3 +1,10 @@
+// Synchronization in Java is used to control access to shared resources by multiple threads to prevent data inconsistency. 
+// You can achieve synchronization using the synchronized keyword or by using synchronized blocks.
+// Steps:
+//    1. Choose the synchronization object: Decide which object to use for synchronization.
+//    2.Ensure consistency and safety: Make sure that all accesses to the shared resource are properly synchronized.
+//    3. Test thoroughly: Test your synchronized code with multiple threads to ensure that it behaves correctly under concurrent execution.
+//    4. Optimize performance: Consider the performance implications of synchronization and optimize your code if necessary.
 //Synchronization
 class Counter {
     private int count = 0;
